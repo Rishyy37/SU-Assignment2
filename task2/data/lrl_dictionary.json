@@ -1,0 +1,81 @@
+{
+  "i":"હું","me":"મને","my":"મારું","mine":"મારું","we":"અમે","us":"અમને","our":"અમારું","ours":"અમારું",
+  "you":"તમે","your":"તમારું","yours":"તમારું","he":"તે","him":"તેને","his":"તેનું","she":"તે","her":"તેને","hers":"તેનું",
+  "they":"તેઓ","them":"તેમને","their":"તેમનું","theirs":"તેમનું","this":"આ","that":"તે","these":"આ","those":"તે",
+
+  "is":"છે","am":"છું","are":"છે","was":"હતું","were":"હતા","be":"હોવું","being":"હોતું","been":"હતું",
+  "have":"હોવું","has":"છે","had":"હતું","do":"કરવું","does":"કરે છે","did":"કર્યું",
+
+  "a":"એક","an":"એક","the":"તે","and":"અને","or":"અથવા","but":"પરંતુ","so":"એટલે","because":"કારણ કે",
+  "if":"જો","then":"તો","else":"નહીંતર","while":"જ્યારે","also":"પણ","only":"માત્ર","very":"ખૂબ","just":"માત્ર",
+  "not":"નહીં","no":"ના","yes":"હા","all":"બધા","any":"કોઈપણ","some":"થોડા","many":"ઘણા","few":"થોડા",
+
+  "what":"શું","which":"કયો","who":"કોણ","whom":"કોઈને","when":"ક્યારે","where":"ક્યાં","why":"શા માટે","how":"કઈ રીતે",
+
+  "time":"સમય","day":"દિવસ","year":"વર્ષ","today":"આજે","tomorrow":"કાલે","yesterday":"ગઈકાલે","now":"હમણાં",
+  "later":"પછી","before":"પહેલાં","after":"પછી","again":"ફરી","always":"હંમેશા","never":"ક્યારેય નહીં","often":"વારંવાર",
+
+  "work":"કામ","working":"કામ કરવું","worked":"કામ કર્યું","job":"નોકરી","task":"કાર્ય","tasks":"કાર્યો",
+  "project":"પ્રોજેક્ટ","system":"પ્રણાલી","model":"મોડેલ","analysis":"વિશ્લેષણ","data":"ડેટા","information":"માહિતી",
+  "result":"પરિણામ","outcome":"પરિણામ","process":"પ્રક્રિયા","method":"પદ્ધતિ","approach":"અભિગમ",
+
+  "learn":"શીખવું","learning":"શીખવું","learned":"શીખ્યું","education":"શિક્ષણ","study":"અભ્યાસ","studied":"અભ્યાસ કર્યો",
+  "teach":"શીખવવું","teaching":"શીખવવું","lecture":"વ્યાખ્યાન","speech":"ભાષણ",
+
+  "good":"સારો","bad":"ખરાબ","right":"સાચું","wrong":"ખોટું","correct":"સાચું","incorrect":"ખોટું",
+  "important":"મહત્વપૂર્ણ","priority":"પ્રાથમિકતા","strong":"મજબૂત","strength":"શક્તિ","weak":"નબળું",
+
+  "make":"બનાવવું","made":"બનાવ્યું","making":"બનાવવું","create":"બનાવવું","created":"બનાવ્યું",
+  "build":"બનાવવું","building":"બનાવવું","develop":"વિકસાવવું","developed":"વિકસાવ્યું","development":"વિકાસ",
+
+  "improve":"સુધારવું","improved":"સુધાર્યું","improvement":"સુધારો","increase":"વધારવું","decrease":"ઘટાડવું",
+  "growth":"વિકાસ","reduce":"ઘટાડવું","change":"બદલાવ","changed":"બદલાયું",
+
+  "start":"શરૂ કરવું","started":"શરૂ કર્યું","begin":"શરૂ કરવું","began":"શરૂ કર્યું","continue":"ચાલુ રાખવું",
+  "continued":"ચાલુ રાખ્યું","end":"સમાપ્ત કરવું","ended":"સમાપ્ત થયું","finish":"પૂર્ણ કરવું","finished":"પૂર્ણ થયું",
+
+  "go":"જવું","went":"ગયો","going":"જવું","come":"આવવું","came":"આવ્યો","coming":"આવવું",
+  "move":"ચાલવું","moving":"આગળ વધવું","stay":"રહેવું","stayed":"રહ્યો",
+
+  "focus":"ધ્યાન","focused":"ધ્યાન આપ્યો","keep":"રાખવું","kept":"રાખ્યું",
+  "basic":"મૂળભૂત","fundamental":"મૂળભૂત","fundamentals":"મૂળ સિદ્ધાંતો",
+
+  "economy":"અર્થવ્યવસ્થા","benefit":"લાભ","benefited":"લાભ થયો","loss":"નુકસાન","losses":"નુકસાન",
+  "gain":"લાભ","market":"બજાર","value":"મૂલ્ય",
+
+  "risk":"જોખમ","risky":"જોખમી","risk-taking":"જોખમ લેવાની ક્ષમતા","capacity":"ક્ષમતા","ability":"ક્ષમતા",
+  "decision":"નિર્ણય","decisions":"નિર્ણયો","decide":"નક્કી કરવું","decided":"નક્કી કર્યું",
+
+  "responsibility":"જવાબદારી","ownership":"જવાબદારી સ્વીકારવી","own":"પોતાનું",
+  "accept":"સ્વીકારવું","accepted":"સ્વીકાર્યું","blame":"દોષ આપવો","shift":"બદલવું",
+
+  "team":"ટીમ","people":"લોકો","person":"વ્યક્તિ","country":"દેશ","nation":"રાષ્ટ્ર","government":"સરકાર",
+
+  "worry":"ચિંતા","fear":"ભય","problem":"સમસ્યા","issue":"મુદ્દો","solution":"ઉકેલ",
+  "solve":"ઉકેલવું","solved":"ઉકેલ્યું",
+
+  "ready":"તૈયાર","prepared":"તૈયાર","plan":"યોજના","planning":"યોજના બનાવવી",
+  "execute":"અમલ કરવો","execution":"અમલ",
+
+  "support":"આધાર","help":"મદદ","helped":"મદદ કરી","lead":"નેતૃત્વ કરવું","leader":"નેતા",
+  "management":"વ્યવસ્થાપન","manage":"વ્યવસ્થાપન કરવું",
+
+  "new":"નવું","old":"જૂનું","first":"પ્રથમ","second":"બીજું","another":"બીજું",
+  "next":"આગલું","previous":"પહેલાનું",
+
+  "newspapers":"અખબારો","say":"કહેવું","praise":"પ્રશંસા","criticize":"આલોચના","ignore":"અવગણવું",
+  "ignoring":"અવગણવું","ultimately":"અંતમાં","finally":"અંતે",
+
+  "deep":"ઘણું","deeply":"ઘણું","commit":"પ્રતિબદ્ધ થવું","committed":"પ્રતિબદ્ધ",
+  "commitment":"પ્રતિબદ્ધતા",
+
+  "forward":"આગળ","ahead":"આગળ","future":"ભવિષ્ય","life":"જીવન",
+
+  "energy":"ઊર્જા","signal":"સંકેત","speech":"ભાષણ","audio":"ઓડિયો","sound":"ધ્વનિ",
+  "voice":"આવાજ","frequency":"આવર્તન","feature":"લક્ષણ","vector":"વેક્ટર","modeling":"મોડેલિંગ",
+
+  "machine":"મશીન","learning":"શીખવું","neural":"ન્યુરલ","network":"નેટવર્ક","training":"પ્રશિક્ષણ",
+  "test":"પરિક્ષા","accuracy":"ચોકસાઈ","error":"ભૂલ","rate":"દર",
+
+  "file":"ફાઇલ","input":"ઇનપુટ","output":"આઉટપુટ","system":"પ્રણાલી","pipeline":"પાઇપલાઇન"
+}
