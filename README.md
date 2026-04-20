@@ -2,6 +2,67 @@
 
 This repository implements a complete speech processing pipeline for handling code-switched academic lectures in India (Hinglish), transcribing them, and re-synthesizing into a Low-Resource Language (LRL) using zero-shot voice cloning.
 
+## Repository Structure
+
+```
+SU-Assignment2/
+├── README.md
+├── task1/                          # Robust Code-Switched Transcription
+│   ├── config.py
+│   ├── denoise.py
+│   ├── lid.py
+│   ├── pipeline.py
+│   ├── requirements.txt
+│   ├── utils.py
+│   └── data/
+│       ├── input/
+│       ├── models/
+│       └── output/
+│           └── transcript.txt
+├── task2/                          # Phonetic Mapping & Translation
+│   ├── pipeline.py
+│   ├── requirements.txt
+│   ├── data/
+│   │   ├── input_transcript.txt
+│   │   ├── ipa_output.txt
+│   │   ├── lrl_dictionary.json
+│   │   ├── raw_input_transcript.txt
+│   │   └── translated_lrl.txt
+│   ├── models/
+│   │   └── guj_ipa_map.json
+│   └── src/
+│       ├── g2p_converter.py
+│       ├── ipa_builder.py
+│       ├── tokenizer.py
+│       ├── translator.py
+│       └── utils.py
+├── task3/                          # Zero-Shot Cross-Lingual Voice Cloning
+│   ├── pipeline.py
+│   ├── requirements.txt
+│   ├── data/
+│   │   └── lrl_text.txt
+│   ├── models/
+│   ├── output/
+│   └── src/
+│       ├── dtw_alignment.py
+│       ├── prosody_extractor.py
+│       ├── speaker_embedding.py
+│       ├── tts_synthesizer.py
+│       └── utils.py
+└── task4/                          # Adversarial Robustness & Spoofing Detection
+    ├── pipeline.py
+    ├── requirements.txt
+    ├── data/
+    │   ├── guj_ipa_map.json
+    │   ├── input_transcript.txt
+    │   └── lrl_dictionary.json
+    ├── output/
+    └── src/
+        ├── adversarial_attack.py
+        ├── spoof_detector.py
+        └── utils.py
+```
+
 ## Problem Statement
 
 Current speech technologies excel in monolingual, high-resource settings. However, real-world academic discourse in India is heavily Code-Switched (Hinglish). This assignment requires building a pipeline that transcribes these lectures and re-synthesizes them into a Low-Resource Language (LRL) of your choice (e.g., Santhali, Maithili, Gondi, or a specific regional dialect) using your own voice via zero-shot cloning.
@@ -20,15 +81,13 @@ The pipeline consists of four main components:
 **Goal:** Create a high-fidelity transcript of a 10-minute segment from the provided class lectures.
 
 ### Task 1.1: Multi-Head Language Identification (LID)
-- Implement frame-level LID system
-- Distinguish between English (L2) and Hindi
+- Frame-level LID system distinguishing English and Hindi
 - Minimum F1-score of 0.85
 - Uses Wav2Vec2 with linear classifier and median filtering
 
 ### Task 1.2: Constrained Decoding
-- Modify pre-trained model (Whisper-v3 or Wav2Vec2.0)
-- Implement Logit Bias or Constrained Beam Search
-- Custom N-gram Language Model trained on Speech Course Syllabus
+- Modifies pre-trained model (Whisper-v3 or Wav2Vec2.0)
+- Implements Logit Bias with N-gram Language Model
 - Prioritizes technical terms (e.g., "stochastic," "cepstrum")
 
 ### Task 1.3: Denoising & Normalization
@@ -42,11 +101,11 @@ The pipeline consists of four main components:
 **Goal:** Bridge the gap between source (English-Hindi) and target LRL.
 
 ### Task 2.1: IPA Unified Representation
-- Convert code-switched transcript to unified IPA string
-- Manual mapping for Hinglish phonology (standard G2P fails)
+- Converts code-switched transcript to unified IPA string
+- Manual mapping for Hinglish phonology
 
 ### Task 2.2: Semantic Translation
-- Translate IPA/Text into target LRL
+- Translates IPA/Text into target LRL
 - 500-word parallel corpus/dictionary for technical terms
 
 **Location:** `task2/`
@@ -75,13 +134,13 @@ The pipeline consists of four main components:
 **Goal:** Ensure pipeline distinguishes live human speech from synthetic/manipulated audio.
 
 ### Task 4.1: Anti-Spoofing Classifier (CM)
-- Implement Countermeasure using LFCC or CQCC
-- Classify "Bona Fide" (real human) vs "Spoof" (synthesized output)
-- Evaluate using Equal Error Rate (EER)
+- Implements Countermeasure using LFCC or CQCC
+- Classifies "Bona Fide" (real human) vs "Spoof" (synthesized output)
+- Evaluates using Equal Error Rate (EER)
 
 ### Task 4.2: Adversarial Noise Injection
-- Add Adversarial Perturbations (FGSM) to 5-second lecture segment
-- Find minimum epsilon (ε) where SNR >40dB but LID misclassifies Hindi as English
+- Adds Adversarial Perturbations (FGSM) to 5-second lecture segment
+- Finds minimum epsilon (ε) where SNR >40dB but LID misclassifies Hindi as English
 
 **Location:** `task4/`
 
