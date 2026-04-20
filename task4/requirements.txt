@@ -1,0 +1,9 @@
+numpy
+librosa
+scipy
+torch
+torchaudio
+soundfile
+scikit-learn
+matplotlib
+seaborn
