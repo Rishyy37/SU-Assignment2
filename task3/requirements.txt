@@ -1,0 +1,8 @@
+torch
+torchaudio
+librosa
+numpy
+scipy
+soundfile
+pyttsx3
+fastdtw
