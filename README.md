@@ -67,9 +67,7 @@ SU-Assignment2/
 
 Current speech technologies excel in monolingual, high-resource settings. However, real-world academic discourse in India is heavily Code-Switched (Hinglish). This assignment requires building a pipeline that transcribes these lectures and re-synthesizes them into a Low-Resource Language (LRL) of your choice (e.g., Santhali, Maithili, Gondi, or a specific regional dialect) using your own voice via zero-shot cloning.
 
-## Pipeline Overview
-
-The pipeline consists of four main components:
+## Pipeline Components
 
 1. **Part I: Robust Code-Switched Transcription (STT)** - High-fidelity transcription with LID and constrained decoding
 2. **Part II: Phonetic Mapping & Translation** - IPA representation and LRL translation
