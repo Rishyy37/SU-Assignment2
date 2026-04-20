@@ -107,7 +107,7 @@ To receive a passing grade, meet these benchmarks:
 - `output_LRL_cloned.wav` - Final 10-minute synthesized lecture
 
 ### Report
-- 10-page PDF in IEEE/CVPR two-column format
+- 6-page PDF in IEEE/CVPR two-column format
 - Mathematical formulation of N-gram logit biasing
 - Ablation study: prosody warping vs. flat synthesis
 - Confusion Matrix for code-switching boundaries
@@ -146,7 +146,7 @@ cd ../task4 && pip install -r requirements.txt
 4. **Task 4:** Use Task 3 output, run `python pipeline.py`
 
 ## Target LRL
-Gujarati (regional dialect of Western India)
+Gujarati (regional dialect of Western India and my mother tongue)
 
 ## Key Technologies Used
 - **ASR:** Whisper, Wav2Vec2
@@ -167,6 +167,6 @@ Gujarati (regional dialect of Western India)
 This project is for academic purposes only.
 
 ## Contact
-Rishi Patel - rishi.patel@iitj.ac.in
+Rishi Patel - b22cs071@iitj.ac.in
 
 Department of Computer Science, IIT Jodhpur
